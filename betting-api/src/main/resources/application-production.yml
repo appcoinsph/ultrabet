@@ -4,7 +4,7 @@ spring:
   application:
     name: parabolic-betting-api
   datasource:
-    url: ${DB_URL:jdbc:mysql://localhost:3306/betting1}
+    url: ${DB_URL:jdbc:mysql://localhost:3000/betting1}
     username: ${DB_USERNAME:betadmin}
     password: ${DB_PASSWORD:asdf123_}
     hikari:
@@ -33,7 +33,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: https://parabolicbet.eu.auth0.com/
+          issuer-uri: https://dev-yktfqgibob3tuegl.us.auth0.com
 management:
   endpoints:
     web:
@@ -65,6 +65,6 @@ logging:
               BasicBinder: info
 okta:
   oauth0:
-    issuer: https://parabolicbet.eu.auth0.com/
-    client-id: IHCyxIXxF8bVJThvviAF583taf9E7HfN
-    audience: https://parabolicbet.eu.auth0.com/api/v2/
+    issuer: https://dev-yktfqgibob3tuegl.us.auth0.com
+    client-id: OJXKT8RgrXVAejZFk3GSqXWO3OHxdIX6
+    audience: https://dev-yktfqgibob3tuegl.us.auth0.com/api/v2/
