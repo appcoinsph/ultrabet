@@ -33,7 +33,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: https://parabolicbet.eu.auth0.com/
+          issuer-uri: https://dev-yktfqgibob3tuegl.us.auth0.com
 management:
   endpoints:
     web:
@@ -66,6 +66,6 @@ logging:
               BasicBinder: info
 okta:
   oauth0:
-    issuer: https://parabolicbet.eu.auth0.com/
-    client-id: IHCyxIXxF8bVJThvviAF583taf9E7HfN
-    audience: https://parabolicbet.eu.auth0.com/api/v2/
+    issuer: https://dev-yktfqgibob3tuegl.us.auth0.com
+    client-id: OJXKT8RgrXVAejZFk3GSqXWO3OHxdIX6
+    audience: https://dev-yktfqgibob3tuegl.us.auth0.com/api/v2/
